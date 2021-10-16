@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cheat">
+      <UniqueIdentifier>{d1d5d247-7420-4059-8eb0-6dfd64b622c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\hooks">
+      <UniqueIdentifier>{94ca23b9-02d9-4528-89a1-13c11d2ee8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\engine">
+      <UniqueIdentifier>{40e73140-6752-4fee-996c-7e58cee35a47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cheat\modules">
+      <UniqueIdentifier>{a2d05d0c-b91d-4736-92dd-85e3a9b4d11e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\hooks\hooks.cpp">
+      <Filter>cheat\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\engine\entity.cpp">
+      <Filter>cheat\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\health.cpp">
+      <Filter>cheat\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\settings.cpp">
+      <Filter>cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\modules\aimbot.cpp">
+      <Filter>cheat\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat\engine\helpers.cpp">
+      <Filter>cheat\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\offsets.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\memory.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\hooks\hooks.h">
+      <Filter>cheat\hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\engine\entity.h">
+      <Filter>cheat\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\engine\vectors.h">
+      <Filter>cheat\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\modules\modules.h">
+      <Filter>cheat\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\ice_hook.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\settings.h">
+      <Filter>cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat\engine\helpers.h">
+      <Filter>cheat\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
